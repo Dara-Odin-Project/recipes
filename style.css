@@ -32,7 +32,8 @@ main {
 	padding: 3rem;
 }
 
-button {
+a {
+	font-family: 'Poppins';
 	border: 5px solid #A886FC;
 	background: linear-gradient(93deg, rgba(255, 255, 255, 0.80) 1.99%, rgba(255, 255, 255, 0.30) 104.8%); 
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -42,8 +43,10 @@ button {
 	width: 280px;
 	cursor: pointer;
 	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
 }
 
-button:hover {
+a:hover {
 	background-color: white;
 }
