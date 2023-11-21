@@ -45,8 +45,10 @@ a {
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
+	transition: 200ms;
 }
 
 a:hover {
 	background-color: white;
+	transform: scale(1.1);
 }
