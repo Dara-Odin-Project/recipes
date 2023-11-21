@@ -30,6 +30,18 @@ main {
 	align-items: center;
 	gap: 1.5rem;
 	padding: 3rem;
+	position: relative;
+}
+
+img {
+	position: absolute;
+	width: min(300px, 40%);
+	right: -80px;
+	top: -140px;
+	transition: 300ms;
+}
+img:hover {
+	transform: scale(1.2);
 }
 
 a {
